@@ -2,32 +2,33 @@
   "name": "client-room",
   "version": "0.0.0",
   "scripts": {
-    "heroku-postbuild": "ng build --prod",
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "postinstall": "ng build --aot --prod",
     "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.0.0-rc.7",
     "@angular/cli": "~9.0.0-rc.7",
-    "@angular/compiler-cli": "~9.0.0-rc.7",
     "@angular/common": "~9.0.0-rc.7",
     "@angular/compiler": "~9.0.0-rc.7",
+    "@angular/compiler-cli": "~9.0.0-rc.7",
     "@angular/core": "~9.0.0-rc.7",
     "@angular/forms": "~9.0.0-rc.7",
     "@angular/platform-browser": "~9.0.0-rc.7",
     "@angular/platform-browser-dynamic": "~9.0.0-rc.7",
     "@angular/router": "~9.0.0-rc.7",
     "bootstrap": "4.5.0",
+    "express": "^4.17.1",
     "jquery": "3.5.1",
     "rxjs": "~6.5.3",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2",
-    "typescript": "~3.6.4"
+    "typescript": "~3.6.4",
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.0-rc.7",
