@@ -22,8 +22,8 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/assets/css/bootstrap.min.css"],
             "scripts": [
-              "src/assets/js/bootstrap.min.js",
-              "src/assets/js/jquery.min.js"
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/bootstrap.min.js"
             ]
           },
           "configurations": {
