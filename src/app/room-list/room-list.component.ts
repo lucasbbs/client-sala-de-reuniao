@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RoomDetailsComponent } from 'src/app/room-details.component';
+import { RoomDetailsComponent } from 'src/app/room-details/room-details.component';
 import { Observable } from 'rxjs';
 import { RoomService } from '../room.service';
 import { Room } from '../room';
@@ -24,18 +24,19 @@ export class RoomListComponent implements OnInit {
   }
 
   deleteRoom(id: number) {
-    this.roomService.deleteRoom(id).subscribe((data) => {
-      console.log(data);
-      this.reloadData();
-    },
-    error=> console.log(error);
+    this.roomService.deleteRoom(id).subscribe(
+      (data) => {
+        console.log(data);
+        this.reloadData();
+      },
+      (error) => console.log(error)
     );
   }
-  roomDetails(id: number){
+  roomDetails(id: number) {
     this.router.navigate(['details', id]);
   }
 
-  updateRoom(id:number){
+  updateRoom(id: number) {
     this.router.navigate(['update', id]);
   }
 }

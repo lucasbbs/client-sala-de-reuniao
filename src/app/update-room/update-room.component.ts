@@ -32,7 +32,7 @@ export class UpdateRoomComponent implements OnInit {
 
   updateRoom() {
     // prettier-ignore
-    this.room.updateRoom(this.id, this.room)
+    this.roomService.updateRoom(this.id, this.room)
              .subscribe(data=> console.log(data), error=> console.log(error));
 
     this.room = new Room();
