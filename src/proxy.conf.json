@@ -1,0 +1,7 @@
+{
+  "/*": {
+    "target": "https://client-salasdereuniao.herokuapp.com/",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}
