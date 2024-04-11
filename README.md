@@ -1,4 +1,4 @@
-# client-meeting-room
+# dio-meetingroom-app
 
 Project created with [Angular 11](https://github.com/angular/) to consume the API [dio-meetingroom](https://github.com/lucasbbs/dio-meetingroom).
 
