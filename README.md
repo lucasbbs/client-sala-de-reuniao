@@ -1,27 +1,44 @@
-# ClientRoom
+# client-meeting-room
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
+Project created with [Angular 12](https://github.com/angular/) to consume the API [dio-meetingroom](https://github.com/flwedu/dio-meetingroom).
 
-## Development server
+## Technologies used 🔧
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Angular 12
+- Typescript
+- HTML
+- CSS
+- Bootstrap 5
+- Material Icons
+- Jasmine
+- Karma
 
-## Code scaffolding
+## Notes 📢
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This application requires the Meeting Rooms API, available at https://github.com/flwedu/dio-meetingroom.
 
-## Build
+## Running the application 🚀
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Just access the project's root folder and execute `ng serve` to start the application.
 
-## Running unit tests
+![image](https://user-images.githubusercontent.com/55285816/131054106-06e4f3c5-4da0-4be9-ade0-92eae1b259ec.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+After that, just navigate to `http://localhost:4200/`.
 
-## Running end-to-end tests
+## Running unit tests 🧪
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+To run unit tests, just execute `ng test`. This command will run the tests and open a page in the browser with the results.
 
-## Further help
+## Features
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[ ✔ ] View rooms
+
+[ ✔ ] Display room details
+
+[ ✔ ] Add new rooms
+
+[ ✔ ] Delete rooms
+
+[ ✔ ] Update room data
+
+[ ✔ ] Validation of entered data
