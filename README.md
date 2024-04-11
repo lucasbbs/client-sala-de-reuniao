@@ -21,8 +21,6 @@ This application requires the Meeting Rooms API, available at https://github.com
 
 Just access the project's root folder and execute `ng serve` to start the application.
 
-![image](https://user-images.githubusercontent.com/55285816/131054106-06e4f3c5-4da0-4be9-ade0-92eae1b259ec.png)
-
 After that, just navigate to `http://localhost:4200/`.
 
 ## Running unit tests 🧪
