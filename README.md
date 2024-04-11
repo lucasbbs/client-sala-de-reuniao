@@ -1,6 +1,6 @@
 # client-meeting-room
 
-Project created with [Angular 12](https://github.com/angular/) to consume the API [dio-meetingroom](https://github.com/flwedu/dio-meetingroom).
+Project created with [Angular 12](https://github.com/angular/) to consume the API [dio-meetingroom](https://github.com/lucasbbs/dio-meetingroom).
 
 ## Technologies used 🔧
 
@@ -15,7 +15,7 @@ Project created with [Angular 12](https://github.com/angular/) to consume the AP
 
 ## Notes 📢
 
-This application requires the Meeting Rooms API, available at https://github.com/flwedu/dio-meetingroom.
+This application requires the Meeting Rooms API, available at https://github.com/lucasbbs/dio-meetingroom.
 
 ## Running the application 🚀
 
