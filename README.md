@@ -1,10 +1,10 @@
 # client-meeting-room
 
-Project created with [Angular 12](https://github.com/angular/) to consume the API [dio-meetingroom](https://github.com/lucasbbs/dio-meetingroom).
+Project created with [Angular 11](https://github.com/angular/) to consume the API [dio-meetingroom](https://github.com/lucasbbs/dio-meetingroom).
 
 ## Technologies used 🔧
 
-- Angular 12
+- Angular 11
 - Typescript
 - HTML
 - CSS
